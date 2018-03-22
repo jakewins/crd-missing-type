@@ -1,5 +1,5 @@
 This is a simple clone of the opkit sample project.
-The [Controller](./controller.go) panics if an Added resource is missing TypeMeta.
+The [Controller](./controller.go) gets upset if an Added resource is missing TypeMeta.
 
 ## How to test
 
