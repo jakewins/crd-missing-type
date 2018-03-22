@@ -1,0 +1,13 @@
+.idea
+*.iml
+
+crd-missing-type
+
+build/
+tmp/
+
+# This seems controversial; by removing this, we'd have all our dependencies
+# checked into the source tree; something that has some benefits. 
+# However, it also makes diffs utterly unreadable unless great care is
+# taken.. something to discuss!
+vendor
